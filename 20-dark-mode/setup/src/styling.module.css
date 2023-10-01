@@ -1,0 +1,45 @@
+h1{
+  font-size: 40px;
+  display: inline-block;
+  margin-left: 350px;
+}
+button{
+  color: white;
+  background: var(--clr-primary);
+  border: none;
+  border-radius: 3px;
+  font-family: Arial;
+  letter-spacing: 2px;
+  padding: 6px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 23px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+.box{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  
+}
+.title{
+  color:var(--clr-primary) ;
+}
+.date{
+  font-style: italic;
+  font-weight: 400;
+}
+.data{
+  font-weight: 500;
+  color: rgb(80, 80, 80);
+}
+.box2{
+  margin-left: 350px;
+}
+.box3{
+  margin-top: 40px;
+}
+.dark-the{
+  background-color: black;
+}

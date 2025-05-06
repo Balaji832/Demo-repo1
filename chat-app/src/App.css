@@ -1,0 +1,34 @@
+.box{
+  width: 400px;
+  height: 500px;
+  border:solid 1px rgb(222, 214, 214);
+  position: relative;
+  left: 430px;
+  top: 50px;
+  padding: 0;
+  box-shadow: 5px 5px 2px rgb(225, 215, 215);
+  border-radius: 20px;
+}
+.inputField{
+  width: 400px;
+  height: 70px;
+  margin: 0;
+  border: none;
+  border-bottom: solid 1px rgb(212, 204, 204);
+  font-weight: bold;
+  font-size: 30px;
+
+}
+button{
+  width: 60px;
+  height: 60px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center ;
+  gap: 20px;
+  padding: 20px
+}

@@ -3,9 +3,10 @@ import React from 'react'
 import { useRouter } from 'next/navigation'
 
 const OrderProduct = () => {
+  
 const route=useRouter()
     const orderHandler=()=>{
-        route.push("/")
+        route.push("/productlist/999/color/red")
     }
   return (
     <div>

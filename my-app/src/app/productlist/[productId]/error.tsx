@@ -1,12 +1,20 @@
 "use client"
 import React from 'react'
+import { useRouter } from 'next/navigation'
 
-const Error = ({error}:{error:Error}) => {
+const Error = ({error,reset}:{error:Error,reset:()=>void}) => {
+  const route=useRouter();
+  
+  const clickHandler=()=>{
+    route.refresh()
+    reset()
+  }
   return (
     <div>
-      {error.message}
+      <div>{error.message}</div>
+      <button onClick={clickHandler}>reload</button>
     </div>
   )
 }
 
-export default Error
+export default Error;
